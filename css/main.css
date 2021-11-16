@@ -1,0 +1,70 @@
+body
+{
+padding: 0; /* Padding ve margin 0 kenar bosluqlari yox edir */
+margin: 0;
+background-image: url("../img/background.jpg");
+/* bckground size cover Sekili butun sehifeye yerlestirir  */
+background-size: cover;
+}
+/* menu style start */
+.menu
+{
+height: 8;
+width: 100%;
+background-color:gray;
+color: rgb(253, 253, 253);
+display: flex;
+align-items: center;
+/* justify-content space-evenly elementler arasi mesafe verir */
+justify-content:space-evenly;
+}
+.menu a
+{
+ font-size: 19px;
+/*text deceration linkdeki dekarasiyani yox edir sade text kimi gosterir*/
+ text-decoration: none;
+ color: white;
+}
+.menu a:hover
+{
+    color:red;
+    /* transition elementn uzerine geldikde renginin deyismesi ucun zaman qoyuruq*/
+    transition: 1.6s;
+}
+/* menu style son */
+
+
+/* contact form style start */
+input[type=text],input[type=mail],input[type=phone], select, textarea  {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+/* border radius borderlerin ovalliq derecesin deyismek ucundur */
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+
+  }
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  /* inputun uzerine geldikte rengi deyissin */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  .form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+
+/* contact form style son */
+
